@@ -90,8 +90,6 @@ public class HelloFunctional {
 
 ## Hasil Eksekusi
 
-## Hasil Eksekusi
-
 - Hasil Functional
   
 ![Screenshot hasil](./screenshots/HASIL_FUNCTIONALpng)
