@@ -43,8 +43,8 @@ Panggil CreditBy.print("<NIM>", "<Nama>") di akhir main untuk menampilkan identi
 Commit dan Push
 
 Commit dengan pesan: week2-class-object.
-Kode Program
-Produk.java
+## Kode Program
+### Produk.java
 package com.upb.agripos.model;
 
 public class Produk {
@@ -84,7 +84,7 @@ public class Produk {
         }
     }
 }
-CreditBy.java
+### CreditBy.java
 package com.upb.agripos.util;
 
 public class CreditBy {
@@ -92,7 +92,7 @@ public class CreditBy {
         System.out.println("\ncredit by: " + nim + " - " + nama);
     }
 }
-MainProduk.java
+### MainProduk.java
 package com.upb.agripos;
 
 import com.upb.agripos.model.Produk;
@@ -130,3 +130,22 @@ public class MainProduk {
 ![Screenshot hasil](./screenshots/Hasil_week2.png)
 
 ---
+
+## Analisis
+Cara kerja kode:
+    penerapan paradigma oop, penyimpanan informasi objek, metode mutasi data terkontrol, utilitas statis. 
+- Perbedaan dengan minggu sebelumnya:
+    - Minggu sebelumnya masih menggunakan pendekatan prosedural, di mana semua data dan logika berada di satu fungsi main().
+    - Minggu ini mulai menerapkan pendekatan OOP, membuat kode lebih modular dan mudah diperluas.
+- Kendala:
+    - Tidak menemukan kendala yang begitu berarti
+
+---
+
+## Kesimpulan
+
+- Program Menjadi Lebih Terstruktur (Modularitas)
+- Mudah Dikembangkan (Maintainability & Extensibility)
+- Mendukung Prinsip Reusability (Dapat Digunakan Kembali🏗
+---
+## Quiz
