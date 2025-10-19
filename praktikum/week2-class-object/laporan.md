@@ -1,73 +1,114 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Laporan Praktikum Minggu 2
+Topik: Class dan Object (Produk Pertanian)
 
-## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+Identitas
+Nama: Fakhri Fahmi Ramadan 
+NIM: 240202897
+Kelas: 3IKRB
+Tujuan
+Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
+Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
+Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
+Mahasiswa mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
+Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
+Dasar Teori
+Class adalah cetak biru (blueprint), rancangan, atau prototipe yang mendefinisikan sifat (atribut) dan perilaku (method) yang umum untuk semua objek dari jenis tertentu. Class sendiri bukan data, melainkan definisi tentang bagaimana data akan dibuat dan dikelola.
+Object adalah instansiasi (wujud nyata) dari sebuah Class. Setiap objek memiliki salinan dari atribut yang didefinisikan dalam Class dan dapat menggunakan method yang ada.
+Enkapsulasi ekanisme penggabungan data (atribut) dengan method (perilaku) yang beroperasi pada data tersebut menjadi satu unit (class), sekaligus mengendalikan akses ke data tersebut. Konsep ini sering disebut sebagai "data hiding" (penyembunyian data).
+Langkah Praktikum
+Membuat Class Produk
 
----
+Buat file Produk.java pada package model.
+Tambahkan atribut: kode, nama, harga, dan stok.
+Gunakan enkapsulasi dengan menjadikan atribut bersifat private dan membuat getter serta setter untuk masing-masing atribut.
+Membuat Class CreditBy
 
-## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+Buat file CreditBy.java pada package util.
+Isi class dengan method statis untuk menampilkan identitas mahasiswa di akhir output: credit by: <NIM> - <Nama>.
+Membuat Objek Produk dan Menampilkan Credit
 
----
+Buat file MainProduk.java.
+Instansiasi minimal tiga objek produk, misalnya "Benih Padi", "Pupuk Urea", dan satu produk alat pertanian.
+Tampilkan informasi produk melalui method getter.
+Panggil CreditBy.print("<NIM>", "<Nama>") di akhir main untuk menampilkan identitas.
+Commit dan Push
 
-## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+Commit dengan pesan: week2-class-object.
+Kode Program
+Produk.java
+package com.upb.agripos.model;
 
----
+public class Produk {
+    private String kode;
+    private String nama;
+    private double harga;
+    private int stok;
 
-## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+    public Produk(String kode, String nama, double harga, int stok) {
+        this.kode = kode;
+        this.nama = nama;
+        this.harga = harga;
+        this.stok = stok;
+    }
 
----
+    public String getKode() { return kode; }
+    public void setKode(String kode) { this.kode = kode; }
 
-## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
+    public String getNama() { return nama; }
+    public void setNama(String nama) { this.nama = nama; }
 
-```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
-```
-)
----
+    public double getHarga() { return harga; }
+    public void setHarga(double harga) { this.harga = harga; }
 
-## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
----
+    public int getStok() { return stok; }
+    public void setStok(int stok) { this.stok = stok; }
 
-## Analisis
-(
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
----
+    public void tambahStok(int jumlah) {
+        this.stok += jumlah;
+    }
 
-## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
+    public void kurangiStok(int jumlah) {
+        if (this.stok >= jumlah) {
+            this.stok -= jumlah;
+        } else {
+            System.out.println("Stok tidak mencukupi!");
+        }
+    }
+}
+CreditBy.java
+package com.upb.agripos.util;
 
----
+public class CreditBy {
+    public static void print(String nim, String nama) {
+        System.out.println("\ncredit by: " + nim + " - " + nama);
+    }
+}
+MainProduk.java
+package com.upb.agripos;
 
-## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
-   **Jawaban:** …  
+import com.upb.agripos.model.Produk;
+import com.upb.agripos.util.CreditBy;
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
-   **Jawaban:** …  
+public class MainProduk {
+    public static void main(String[] args) {
+        Produk p1 = new Produk("BNH-001", "Benih Padi IR64", 25000, 100);
+        Produk p2 = new Produk("PPK-101", "Pupuk Urea 50kg", 350000, 40);
+        Produk p3 = new Produk("ALT-501", "Cangkul Baja", 90000, 15);
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
-   **Jawaban:** …  )
+        System.out.println("Kode: " + p1.getKode() + ", Nama: " + p1.getNama() + ", Harga: " + p1.getHarga() + ", Stok: " + p1.getStok());
+        System.out.println("Kode: " + p2.getKode() + ", Nama: " + p2.getNama() + ", Harga: " + p2.getHarga() + ", Stok: " + p2.getStok());
+        System.out.println("Kode: " + p3.getKode() + ", Nama: " + p3.getNama() + ", Harga: " + p3.getHarga() + ", Stok: " + p3.getStok());
+
+        // Tambah dan kurangi stok
+        p1.tambahStok(50);
+        p2.kurangiStok(20);
+        p3.tambahStok(10);
+
+        System.out.println("\nSetelah update stok:");
+        System.out.println("Kode: " + p1.getKode() + ", Nama: " + p1.getNama() + ", Harga: " + p1.getHarga() + ", Stok: " + p1.getStok());
+        System.out.println("Kode: " + p2.getKode() + ", Nama: " + p2.getNama() + ", Harga: " + p2.getHarga() + ", Stok: " + p2.getStok());
+        System.out.println("Kode: " + p3.getKode() + ", Nama: " + p3.getNama() + ", Harga: " + p3.getHarga() + ", Stok: " + p3.getStok());
+
+        CreditBy.print("240202898", "Fendy Agustian");
+    }
+}
