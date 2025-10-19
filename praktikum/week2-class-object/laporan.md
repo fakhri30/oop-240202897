@@ -112,3 +112,5 @@ public class MainProduk {
         CreditBy.print("240202898", "Fendy Agustian");
     }
 }
+
+Hasil_week2.png
