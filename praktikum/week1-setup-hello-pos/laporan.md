@@ -92,9 +92,12 @@ public class HelloFunctional {
 
 ## Hasil Eksekusi
 - HelloProcedural
-![Screenshot hasil](./screenshots/Hasil_HelloFunctional.png)
+  
+![Screenshot hasil](./screenshots/HelloFuncttional.png)
+
 - HelloOOP
-![Screenshot hasil](./screenshots/Hasil_HelloFunctional.png)
+![Screenshot hasil](./screenshots/HelloOOP.png
+
 - HelloFunctional
 ![Screenshot hasil](./screenshots/Hasil_HelloProcedural.png)
 
