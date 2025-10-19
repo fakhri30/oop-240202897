@@ -94,7 +94,7 @@ public class HelloFunctional {
 
 - Hasil Functional
   
-![Screenshot hasil](./screenshots/HASIL_FUNCTIONAL.png)
+![Screenshot hasil](./screenshots/HASIL_FUNCTIONALpng)
 
 - Hasil oop
 ![Screenshot hasil](./screenshots/HASIL_OOP.png)
