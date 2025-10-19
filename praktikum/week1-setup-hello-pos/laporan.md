@@ -89,14 +89,14 @@ public class HelloFunctional {
 ---
 
 ## Hasil Eksekusi
+
+## Hasil Eksekusi
 - HelloProcedural
-<img width="![alt text](<Screenshot 2025-10-10 071549.png>)" />
-
+![Screenshot hasil](./screenshots/Hasil_HelloFunctional.png)
 - HelloOOP
-<img width="1007" height="133" alt="![alt text](<Screenshot 2025-10-10 071518.png>)" />  
-
+![Screenshot hasil](./screenshots/Hasil_HelloFunctional.png)
 - HelloFunctional
-<img width="808" height="![alt text](<Screenshot 2025-10-10 071802.png>)" />
+![Screenshot hasil](./screenshots/Hasil_HelloProcedural.png)
 
 
 ---
@@ -136,6 +136,7 @@ public class HelloFunctional {
    - Lingkungan membutuhkan reliabilitas tinggi dan minim bug (karena tidak ada *side effect*).
    - Kasus seperti data transformation (ETL), pemrosesan koleksi besar, AI/ML pipeline, atau sistem event-driven.
    - Kita ingin mengurangi kompleksitas logika dengan komposisi fungsi ketimbang hierarki kelas yang dalam.  
+<<<<<<< HEAD
 
 3. Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?  
    **Jawaban:**
@@ -156,3 +157,26 @@ public class HelloFunctional {
    - **Higher-order function** → kita bisa membuat fungsi umum (misalnya `map`, `filter`, `reduce`) yang bisa dipakai ulang untuk berbagai kebutuhan tanpa menulis loop berulang.  
    - **Immutability & pure function** → memisahkan logika dari state, sehingga fungsi bisa dipakai ulang tanpa bergantung pada konteks.  
    - **Function composition** → membangun fungsi kompleks dari fungsi kecil tanpa duplikasi kode.  
+=======
+
+3. Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?  
+   **Jawaban:**
+   - **Prosedural:** Mudah dipahami untuk program kecil, tapi sulit di-*maintain* ketika aplikasi membesar karena logika dan data sering bercampur. Skalabilitas rendah.  
+   - **OOP:** Lebih maintainable untuk sistem besar karena ada struktur class, encapsulation, inheritance, dan polymorphism. Skalabilitas tinggi karena mudah menambah fitur dengan objek baru.  
+   - **Functional:** Maintainability tinggi untuk logika kompleks, karena fungsi murni lebih mudah diuji dan dirangkai ulang. Skalabilitas baik di sistem berbasis data atau yang membutuhkan *concurrency*. 
+
+4. Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?  
+**Jawaban:**
+   Karena aplikasi POS (Point of Sale) memiliki banyak entitas berbeda yang saling berhubungan seperti `Produk`, `Transaksi`, `Kasir`, `Pelanggan`, dan `Pembayaran`. Dengan OOP:
+   - Data dan perilaku bisa disatukan dalam class (misalnya `Transaksi` punya method `hitungTotal()`).
+   - Relasi antar-objek jelas (misalnya `Transaksi` berisi daftar `Produk`).
+   - Kode lebih terstruktur, mudah dikembangkan, dan di-*maintain* seiring bertambahnya fitur.
+
+5. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?  
+**Jawaban:**
+   Paradigma fungsional mengurangi boilerplate dengan:
+   - **Higher-order function** → kita bisa membuat fungsi umum (misalnya `map`, `filter`, `reduce`) yang bisa dipakai ulang untuk berbagai kebutuhan tanpa menulis loop berulang.  
+   - **Immutability & pure function** → memisahkan logika dari state, sehingga fungsi bisa dipakai ulang tanpa bergantung pada konteks.  
+   - **Function composition** → membangun fungsi kompleks dari fungsi kecil tanpa duplikasi kode.  
+
+>>>>>>> fa82f9aac9034c13bfda5b68b58be56dc3590d8c
