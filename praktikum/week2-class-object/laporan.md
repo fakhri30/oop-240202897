@@ -113,4 +113,11 @@ public class MainProduk {
     }
 }
 
-Hasil_week2.png
+---
+
+## Hasil Eksekusi
+
+  
+![Screenshot hasil](./screenshots/Hasil_week2.png)
+
+---
