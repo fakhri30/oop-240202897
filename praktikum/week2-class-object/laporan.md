@@ -146,6 +146,6 @@ Cara kerja kode:
 
 - Program Menjadi Lebih Terstruktur (Modularitas)
 - Mudah Dikembangkan (Maintainability & Extensibility)
-- Mendukung Prinsip Reusability (Dapat Digunakan Kembali🏗
+- Mendukung Prinsip Reusability (Dapat Digunakan Kembali)
 ---
 ## Quiz
