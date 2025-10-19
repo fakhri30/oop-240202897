@@ -1,10 +1,11 @@
 # Laporan Praktikum Minggu 2
+
 **Topik:** Class dan Object (Produk Pertanian)
 
 ## Identitas
--**Nama:** Fakhri Fahmi Ramadan 
--**NIM:** 240202897
--**Kelas:** 3IKRB
+- **Nama:** Fakhri Fahmi Ramadan 
+- **NIM:** 240202897
+- **Kelas:** 3IKRB
 
 ---
 
