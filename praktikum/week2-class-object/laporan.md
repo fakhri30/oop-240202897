@@ -1,11 +1,11 @@
-Laporan Praktikum Minggu 2
+#Laporan Praktikum Minggu 2
 Topik: Class dan Object (Produk Pertanian)
 
-Identitas
+##Identitas
 Nama: Fakhri Fahmi Ramadan 
 NIM: 240202897
 Kelas: 3IKRB
-#Tujuan
+##Tujuan
 Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
 Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
 Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
