@@ -1,21 +1,30 @@
-#Laporan Praktikum Minggu 2
+# Laporan Praktikum Minggu 2
 Topik: Class dan Object (Produk Pertanian)
 
-##Identitas
+## Identitas
 -Nama: Fakhri Fahmi Ramadan 
 -NIM: 240202897
 -Kelas: 3IKRB
-##Tujuan
+
+---
+
+## Tujuan
 -Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
 -Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
 -Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
 -Mahasiswa mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
 -Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
-##Dasar Teori
-Class adalah cetak biru (blueprint), rancangan, atau prototipe yang mendefinisikan sifat (atribut) dan perilaku (method) yang umum untuk semua objek dari jenis tertentu. Class sendiri bukan data, melainkan definisi tentang bagaimana data akan dibuat dan dikelola.
+
+---
+
+## Dasar Teori
+-Class adalah cetak biru (blueprint), rancangan, atau prototipe yang mendefinisikan sifat (atribut) dan perilaku (method) yang umum untuk semua objek dari jenis tertentu. Class sendiri bukan data, melainkan definisi tentang bagaimana data akan dibuat dan dikelola.
 Object adalah instansiasi (wujud nyata) dari sebuah Class. Setiap objek memiliki salinan dari atribut yang didefinisikan dalam Class dan dapat menggunakan method yang ada.
 Enkapsulasi ekanisme penggabungan data (atribut) dengan method (perilaku) yang beroperasi pada data tersebut menjadi satu unit (class), sekaligus mengendalikan akses ke data tersebut. Konsep ini sering disebut sebagai "data hiding" (penyembunyian data).
-Langkah Praktikum
+
+---
+
+## Langkah Praktikum
 Membuat Class Produk
 
 Buat file Produk.java pada package model.
