@@ -151,3 +151,6 @@ Cara kerja kode:
 - Mendukung Prinsip Reusability (Dapat Digunakan Kembali)
 ---
 ## Quiz
+- 1. Deklarasi atribut sebagai private dalam class adalah? bagian penting dari prinsip encapsulation dalam pemrograman berorientasi objek. Tujuannya bukan sekadar menyembunyikan data,          tapi juga menjaga integritas dan fleksibilitas desain program.
+- 2. Fungsi getter dan setter dalam enkapsulasi adalah untuk mengontrol akses dan modifikasi atribut private dalam sebuah class. Dengan menggunakan getter dan setter, kita bisa: Menjaga        keamana data, Melakukuan validasi, Meningkatkan fleksibilitasi, Mendukung prinsip abstraksi
+- 3. Class Produk mendukung pengembangan aplikasi POS (Point of Sale) yang lebih kompleks dengan menyediakan struktur data dan fungsionalitas dasar yang dapat diperluas. Seperti                Menyediakan struktur data yang konsisten, Mendukung validasi dan logika bisnis
