@@ -87,10 +87,9 @@ Inheritance adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi at
    **Jawaban:Keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan sangat signifikan dalam pengembangan perangkat lunak yang efisien dan terstruktu**  
 
 2. **Bagaimana cara subclass memanggil konstruktor superclass?**  
-   **Jawaban:Subclass dapat memanggil konstruktor superclass dengan menggunakan fungsi *super()*. Cara Memanggil Konstruktor Superclass
+   **Jawaban:Subclass dapat memanggil konstruktor superclass dengan menggunakan fungsi *super()*. Cara Memanggil Konstruktor Superclass**
 
-Gunakan super().__init__(...) di dalam konstruktor subclass untuk memanggil konstruktor dari superclass.
-** 
+   **Gunakan super().__init__(...) di dalam konstruktor subclass untuk memanggil konstruktor dari superclass.**
 
 3. **Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat Pertanian yang bisa dijadikan subclass.**  
 
