@@ -60,13 +60,13 @@ Inheritance adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi at
         System.out.println("------------------------------------");
         System.out.println(a.deskripsi());
 
-        CreditBy.print("240202889", "Wahyu Tri Cahya");
+        CreditBy.print("240202897", "Fakhri Fahmi Ramadan");
 ```
 ---
 
 ## Hasil Eksekusi
-![Screenshot hasil](<img width="946" height="354" alt="Screenshot 2025-10-26 013309" src="https://github.com/user-attachments/assets/894a3488-8c04-4350-b54a-e5a48b7630f2" />
-)
+![Screenshot hasil]<img width="946" height="354" alt="Screenshot 2025-10-26 013309" src="https://github.com/user-attachments/assets/894a3488-8c04-4350-b54a-e5a48b7630f2" />
+
 ---
 
 ## Analisis
