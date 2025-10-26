@@ -119,7 +119,7 @@ public class MainProduk {
         System.out.println("Kode: " + p2.getKode() + ", Nama: " + p2.getNama() + ", Harga: " + p2.getHarga() + ", Stok: " + p2.getStok());
         System.out.println("Kode: " + p3.getKode() + ", Nama: " + p3.getNama() + ", Harga: " + p3.getHarga() + ", Stok: " + p3.getStok());
 
-        CreditBy.print("240202898", "Fendy Agustian");
+        CreditBy.print("240202897", "Fakhri Fahmi Ramadan");
     }
 }
 
