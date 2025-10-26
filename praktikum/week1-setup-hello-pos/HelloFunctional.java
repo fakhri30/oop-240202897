@@ -6,6 +6,6 @@ public class HelloFunctional {
         BiConsumer<String, String> introduce =
             (nim, name) -> System.out.println("Hello World, I am " + name + " - " + nim);
 
-        introduce.accept("240202897","Fakhri Fahmi R");
+        introduce.accept("240202897","Fakhri Fahmi Ramadan");
     }
 }

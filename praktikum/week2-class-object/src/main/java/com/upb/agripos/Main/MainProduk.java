@@ -25,6 +25,6 @@ public class MainProduk {
 
         // Menampilkan identitas mahasiswa
         System.out.println();
-        CreditBy.print("240202878", "Rafi Kurniawan");
+        CreditBy.print("240202897", "Fakhri Fahmi Ramadan");
     }
 }

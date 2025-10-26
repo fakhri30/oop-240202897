@@ -14,7 +14,7 @@ class Student {
 
 public class HelloOOP {
     public static void main(String[] args) {
-        Student s = new Student("240202897", "Fakhri Fahmi R");
+        Student s = new Student("240202897", "Fakhri Fahmi Ramadan");
         s.introduce();
     }
 }
