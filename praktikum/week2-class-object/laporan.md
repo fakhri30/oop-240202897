@@ -128,7 +128,8 @@ public class MainProduk {
 ## Hasil Eksekusi
 
   
-![Screenshot hasil](./screenshots/Hasil_week2.png)
+![Screenshot hasil]<img width="625" height="268" alt="Screenshot 2025-10-25 235101" src="https://github.com/user-attachments/assets/8afffab9-b667-4c3a-819f-598c2beb50c9" />
+)
 
 ---
 
