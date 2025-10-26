@@ -84,11 +84,15 @@ Inheritance adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi at
 
 ## Quiz
 1. **Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan?**  
-   **Jawaban:**  
+   **Jawaban:Keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan sangat signifikan dalam pengembangan perangkat lunak yang efisien dan terstruktu**  
 
 2. **Bagaimana cara subclass memanggil konstruktor superclass?**  
-   **Jawaban:** 
+   **Jawaban:Subclass dapat memanggil konstruktor superclass dengan menggunakan fungsi *super()*. Cara Memanggil Konstruktor Superclass
+
+Gunakan super().__init__(...) di dalam konstruktor subclass untuk memanggil konstruktor dari superclass.
+** 
 
 3. **Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat Pertanian yang bisa dijadikan subclass.**  
 
-   **Jawaban:** 
+   **Jawaban:Contoh Subclass Tambahan dalam POS Pertanian
+SubclassDeskripsi Hasil Panen Produk seperti beras, jagung, kedelai, sayuran, buah-buahan yang dijual langsung. Pakan Ternak Produk seperti konsentrat, dedak, jagung giling, atau rumput fermentasi. Obat Hewan Produk untuk kesehatan ternak seperti vitamin, vaksin, dan antibiotik. Media Tanam Produk seperti tanah humus, cocopeat, sekam bakar, dan kompos. Perlengkapan Peternakan Seperti kandang, tempat minum, alat pemerah susu, dan timbangan hewan. Produk Olahan Hasil olahan pertanian seperti keripik singkong, jus buah, atau pupuk cair organik. Bibit Ternak Anak ayam, kambing, sapi, atau ikan yang dijual sebagai bibit ternak** 
