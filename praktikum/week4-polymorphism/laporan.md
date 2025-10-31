@@ -1,16 +1,18 @@
 # Laporan Praktikum Minggu 4 
-Topik: [p0lymorphism (info produk"]
+Topik: p0lymorphism (info produk")
 
 ## Identitas
-- Nama  : [Fakhri Fahmi Ramadan]
-- NIM   : [240202897]
-- Kelas : [3IKRB]
+- Nama  : Fakhri Fahmi Ramadan
+- NIM   : 240202897
+- Kelas : 3IKRB
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+Mahasiswa mampu menjelaskan konsep polymorphism dalam OOP.
+Mahasiswa mampu membedakan method overloading dan overriding.
+Mahasiswa mampu mengimplementasikan polymorphism (overriding, overloading, dynamic binding) dalam program.
+Mahasiswa mampu menganalisis contoh kasus polymorphism pada sistem nyata (Agri-POS).
 
 ---
 
