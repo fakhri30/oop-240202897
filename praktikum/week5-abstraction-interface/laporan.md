@@ -127,7 +127,7 @@ public class MainAbstraction {
 
 ---
 
-## 🔍 Perbedaan dengan Minggu Sebelumnya (Polymorphism)
+##  Perbedaan dengan Minggu Sebelumnya (Polymorphism)
 
 | Aspek | Minggu Sebelumnya (Polymorphism) | Minggu Ini (Abstraction & Interface) |
 |--------|-----------------------------------|--------------------------------------|
@@ -143,7 +143,7 @@ Singkatnya:
 
 ---
 
-## ⚡ Kendala dan Solusi
+##  Kendala dan Solusi
 
 | Kendala | Penyebab | Solusi |
 |----------|-----------|--------|
@@ -154,7 +154,7 @@ Singkatnya:
 
 ---
 
-## ✅ Checklist Keberhasilan
+##  Checklist Keberhasilan
 
 - [x] `Pembayaran` memiliki method abstrak dan konkrit.  
 - [x] `Cash`, `EWallet`, `TransferBank` mengimplementasikan method abstrak dengan benar.  
@@ -166,7 +166,7 @@ Singkatnya:
 
 ---
 
-## 📚 Kesimpulan
+##  Kesimpulan
 
 Pada praktikum minggu ini, konsep **Abstraction & Interface** berhasil diterapkan untuk membuat sistem pembayaran yang terstruktur dan fleksibel.  
 Penggunaan *abstract class* membantu membentuk kerangka umum (`Pembayaran`), sementara *interface* memberikan kemampuan tambahan yang bisa diterapkan lintas kelas (`Validatable`, `Receiptable`).  
@@ -174,7 +174,7 @@ Dengan pendekatan ini, sistem menjadi lebih mudah dikembangkan di masa depan tan
 
 ---
 
-## 📖 Referensi
+##  Referensi
 
 - Liang, Y. D. *Introduction to Java Programming* (Bab 14)  
 - Horstmann, C. S. *Core Java Volume I – Fundamentals* (Bab 6)  
@@ -182,7 +182,7 @@ Dengan pendekatan ini, sistem menjadi lebih mudah dikembangkan di masa depan tan
 
 ---
 
- ## 📝 Quiz
+ ##  Quiz
 
 1. **Jelaskan perbedaan konsep dan penggunaan abstract class dan interface.**  
    **Jawaban:**  
@@ -193,7 +193,7 @@ Dengan pendekatan ini, sistem menjadi lebih mudah dikembangkan di masa depan tan
      - Tidak menyimpan data (sebelum Java 8).  
      - Class dapat mengimplementasikan lebih dari satu interface.  
 
-   ➡️ **Kesimpulan:**  
+    **Kesimpulan:**  
    Gunakan **abstract class** ketika butuh dasar umum dengan perilaku/atribut yang dapat diwarisi,  
    dan gunakan **interface** ketika hanya ingin mendefinisikan perilaku wajib tanpa hubungan hierarki langsung.
 
@@ -209,7 +209,7 @@ Dengan pendekatan ini, sistem menjadi lebih mudah dikembangkan di masa depan tan
    - Tidak ada konflik data antar interface,  
    - Pewarisan ganda menjadi **aman dan terkontrol**.  
 
-   ➡️ **Kesimpulan:**  
+    **Kesimpulan:**  
    Java hanya mengizinkan pewarisan ganda melalui interface, bukan class, agar terhindar dari konflik implementasi dan menjaga konsistensi desain.
 
 ---
@@ -224,7 +224,7 @@ Dengan pendekatan ini, sistem menjadi lebih mudah dikembangkan di masa depan tan
      - `Receiptable` mendefinisikan kontrak untuk mencetak struk, yang bisa diterapkan pada semua metode pembayaran.  
      - Interface memungkinkan *multiple inheritance* tanpa konflik.
 
-   ➡️ **Kesimpulan:**  
+    **Kesimpulan:**  
    - `Pembayaran` → *abstract class* (struktur umum).  
    - `Validatable`, `Receiptable` → *interface* (kemampuan tambahan lintas kelas).
 
