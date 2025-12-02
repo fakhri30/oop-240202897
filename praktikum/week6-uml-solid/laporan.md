@@ -88,7 +88,7 @@ public class PaymentService {
      method.pay(amount);
  }
 }
-## Hasil Secrinshoot
+# Hasil Secrenshoot
 [<img width="1172" height="941" alt="oopactivtydiagram drawio" src="https://github.com/user-attachments/assets/5e33839a-5167-421a-b120-595b234264c3" />
 ]
 [<img width="654" height="1031" alt="oop usecase drawio" src="https://github.com/user-attachments/assets/582b126a-efcf-4165-a8d3-6ca7772ab41c" />
