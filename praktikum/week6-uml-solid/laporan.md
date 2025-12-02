@@ -88,7 +88,8 @@ public class PaymentService {
      method.pay(amount);
  }
 }
-# Hasil Secrenshoot
+---
+## Hasil Secrenshoot
 [<img width="1172" height="941" alt="oopactivtydiagram drawio" src="https://github.com/user-attachments/assets/5e33839a-5167-421a-b120-595b234264c3" />
 ]
 [<img width="654" height="1031" alt="oop usecase drawio" src="https://github.com/user-attachments/assets/582b126a-efcf-4165-a8d3-6ca7772ab41c" />
@@ -112,14 +113,14 @@ Penerapan SOLID terbukti mempermudah modifikasi pada fitur pembayaran dan modul 
 
 ##** Quiz**
 
-1. Jelaskan perbedaan aggregation dan composition serta berikan contoh penerapannya pada desain Anda.
+1. **Jelaskan perbedaan aggregation dan composition serta berikan contoh penerapannya pada desain Anda.**
 Jawaban:
 
-Aggregation adalah hubungan “whole–part” yang longgar; objek part tetap bisa ada tanpa whole.
-Contoh: Order memiliki banyak Product.
+-Aggregation adalah hubungan “whole–part” yang longgar; objek part tetap bisa ada tanpa whole.
+-Contoh: Order memiliki banyak Product.
 
-Composition adalah hubungan “whole–part” yang kuat; objek part tidak ada tanpa whole.
-Contoh: Receipt memiliki ReceiptItem yang hanya hidup selama struk ada.
+-Composition adalah hubungan “whole–part” yang kuat; objek part tidak ada tanpa whole.
+-Contoh: Receipt memiliki ReceiptItem yang hanya hidup selama struk ada.
 
 2. Bagaimana prinsip Open/Closed dapat memastikan sistem mudah dikembangkan?
 Jawaban:
