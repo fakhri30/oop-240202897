@@ -89,49 +89,7 @@ public class PaymentService {
  }
 }
 ---
-## Hasil Secrenshoot
-[<img width="1172" height="941" alt="oopactivtydiagram drawio" src="https://github.com/user-attachments/assets/5e33839a-5167-421a-b120-595b234264c3" />
-]
-[<img width="654" height="1031" alt="oop usecase drawio" src="https://github.com/user-attachments/assets/582b126a-efcf-4165-a8d3-6ca7772ab41c" />
-]
-[<img width="2320" height="1590" alt="oop sequence drawio" src="https://github.com/user-attachments/assets/b62f8cfb-0e34-440a-bc97-3577828e63ae" />
-]
-[<img width="2171" height="1430" alt="ClassDiagram drawio" src="https://github.com/user-attachments/assets/9368855d-0824-49b8-bfc8-7c47b5e9ae60" />
-]
-##** Analisis**
 
-Kode menerapkan Dependency Inversion Principle dengan membuat abstraksi PaymentMethod.
-Sistem mudah diperluas (Open/Closed Principle) karena untuk menambah metode pembayaran baru hanya perlu menambah class implementasi.
-Diagram UML membantu melihat hubungan antar komponen secara lebih jelas sebelum implementasi.
-Kendala yang muncul: menjaga konsistensi penamaan antar diagram; berhasil diatasi dengan revisi bertahap pada iterasi commit.
-
-## **Kesimpulan**
-
-Dengan menerapkan UML dan SOLID, desain arsitektur sistem menjadi lebih modular, mudah dikembangkan, dan maintainable.
-Diagram UML membantu melihat struktur sistem sebelum implementasi sehingga meminimalkan kesalahan desain.
-Penerapan SOLID terbukti mempermudah modifikasi pada fitur pembayaran dan modul lainnya.
-
-##** Quiz**
-
-1. **Jelaskan perbedaan aggregation dan composition serta berikan contoh penerapannya pada desain Anda.**
-Jawaban:
-
--Aggregation adalah hubungan “whole–part” yang longgar; objek part tetap bisa ada tanpa whole.
--Contoh: Order memiliki banyak Product.
-
--Composition adalah hubungan “whole–part” yang kuat; objek part tidak ada tanpa whole.
--Contoh: Receipt memiliki ReceiptItem yang hanya hidup selama struk ada.
-
-2. Bagaimana prinsip Open/Closed dapat memastikan sistem mudah dikembangkan?
-Jawaban:
-OCP menyatakan bahwa class harus open for extension tetapi closed for modification.
-Artinya fitur baru dapat ditambahkan tanpa mengubah kode lama, sehingga mencegah bug dan meningkatkan stabilitas.
-
-3. Mengapa Dependency Inversion Principle (DIP) meningkatkan testability? Berikan contoh penerapannya.
-Jawaban:
-DIP membuat modul tingkat tinggi bergantung pada abstraksi, bukan implementasi konkret.
-Ini memungkinkan penggunaan mock object untuk pengujian.
-Contoh: PaymentService menggunakan interface PaymentMethod, sehingga mudah diuji dengan mock tanpa sistem pembayaran asli.
 
 
 
