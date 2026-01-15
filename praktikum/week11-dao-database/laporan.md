@@ -268,16 +268,8 @@ public class MainDAOTest {
 ---
 
 ## Hasil Eksekusi
+<img width="952" height="320" alt="Screenshot 2026-01-13 065204" src="https://github.com/user-attachments/assets/b37b8f01-59f9-4c1a-b424-108ca2235af6" />
 
-Program berhasil dijalankan dengan hasil sebagai berikut:
-
-- **CREATE**: Data produk berhasil ditambahkan ke database
-- **READ (Find by Code)**: Data produk dengan kode tertentu berhasil ditampilkan
-- **READ (Find All)**: Semua data produk berhasil ditampilkan
-- **UPDATE**: Data produk berhasil diperbarui
-- **DELETE**: Data produk berhasil dihapus dari database
-
-Screenshot hasil eksekusi tersimpan di `screenshots`
 
 ---
 

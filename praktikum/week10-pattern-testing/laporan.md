@@ -173,9 +173,8 @@ public class ProductTest {
 
 ## Hasil Eksekusi
 
-- Program berhasil dijalankan dan menampilkan data produk menggunakan pola MVC.
-- Unit test JUnit berjalan tanpa error.
-- Hasil pengujian ditampilkan pada IDE dan disimpan pada folder `screenshots/junit_result.png`.
+<img width="763" height="329" alt="Screenshot 2026-01-04 035938" src="https://github.com/user-attachments/assets/98f78aed-72a3-4545-bf8c-9f789a9e6dc6" />
+
 
 ---
 

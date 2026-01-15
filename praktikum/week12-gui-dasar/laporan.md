@@ -389,7 +389,8 @@ public class AppJavaFX extends Application {
 - Tombol "Tambah Produk" berfungsi untuk menyimpan data ke database dan menampilkan di ListView.
 - Data yang ditambahkan langsung tersimpan di database PostgreSQL.
 
-Screenshot GUI tersimpan di `screenshots`
+<img width="937" height="794" alt="Screenshot 2026-01-13 082733" src="https://github.com/user-attachments/assets/725d8f00-5446-46f1-a4ec-34807250d1e6" />
+
 
 ---
 
