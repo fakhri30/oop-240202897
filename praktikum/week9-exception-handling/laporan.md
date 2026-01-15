@@ -171,7 +171,8 @@ public class MainExceptionDemo {
 
 ## Hasil Eksekusi
 
-*(Hasil eksekusi program disertakan pada folder `screenshots/hasil.png`)*
+*(<img width="701" height="179" alt="Screenshot 2026-01-04 022047" src="https://github.com/user-attachments/assets/adb16b44-186e-435a-8196-d9ff9d56e153" />
+`)*
 
 
 ## Analisis
