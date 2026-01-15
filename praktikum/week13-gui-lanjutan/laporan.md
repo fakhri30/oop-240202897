@@ -258,7 +258,8 @@ public class AppJavaFX extends Application {
 - ObservableList memastikan perubahan data langsung ter-reflect di UI tanpa manual refresh.
 - Selection model pada TableView memungkinkan user memilih baris untuk dihapus.
 
-Screenshot GUI TableView tersimpan di `screenshots/tableview_produk.png`
+<img width="1035" height="687" alt="Screenshot 2026-01-14 054634" src="https://github.com/user-attachments/assets/e461106c-91f6-46bb-adb0-0d91e929f84b" />
+`
 
 ---
 
