@@ -216,6 +216,7 @@ public class PosController {
 ## Hasil Eksekusi
 
 <img width="1544" height="930" alt="Screenshot 2026-01-14 090340" src="https://github.com/user-attachments/assets/b1b1bc36-3ed2-4a94-98dd-84575564de6f" />
+<img width="725" height="867" alt="image" src="https://github.com/user-attachments/assets/90d61c20-8cab-4f34-b12a-bfb4cc1b5afc" />
 
 ---
 
