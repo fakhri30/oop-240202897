@@ -215,7 +215,8 @@ public class PosController {
 
 ## Hasil Eksekusi
 
-berada di folder screenshoots
+<img width="1544" height="930" alt="Screenshot 2026-01-14 090340" src="https://github.com/user-attachments/assets/b1b1bc36-3ed2-4a94-98dd-84575564de6f" />
+
 ---
 
 ## Analisis
